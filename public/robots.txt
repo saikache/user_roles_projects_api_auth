@@ -1,0 +1,36 @@
+# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+
+
+
+<form '/api/users/', remote = 'true', method: 'get' >
+
+	<input type="text"  name="input_value" value="2">
+
+
+	<button type='submit'> Submit </button>
+
+</form>
+
+
+<script>
+$('form').submit(function(e){
+	e.preventDefault();
+	$ajay({
+		async: true,
+		params: {},
+		method: get,
+	
+	})
+	success: function(seee){
+
+	},
+	error: function(error_res){
+
+	}
+
+
+})
+
+</script>
+
+params[:input_value]

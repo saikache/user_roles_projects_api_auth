@@ -1,0 +1,462 @@
+{
+	"id": "d546b12e-6e0e-7050-cbf9-22967b032861",
+	"name": "infi",
+	"description": "",
+	"order": [
+		"3a3edcd3-5d88-a2ee-5dab-b608d1f0e0fa",
+		"51d02d2d-8c46-5783-feac-131a6136ba3f"
+	],
+	"folders": [
+		{
+			"name": "Project",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"order": [
+				"4a80e003-b9d9-5c56-27dc-650f0a654c70",
+				"5e07f262-983c-32ba-1be9-c91ee2311bab",
+				"b9413ded-a1db-553f-f592-d3b6bb88c37d",
+				"08a55e7c-f153-8105-cc92-fc08ec5287b2",
+				"a861d809-7fae-b4fe-20a8-2ff2db22ae4a"
+			],
+			"owner": "452374",
+			"folders_order": [],
+			"id": "50ebcccf-83f7-c89b-717f-5b37703852b7"
+		},
+		{
+			"name": "Users",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"order": [
+				"1a8fcf88-eea7-acf7-7a08-c6dbde255140",
+				"74c43a48-b507-31f7-3cdf-f7cc8cd924e0",
+				"0b2f11d2-b8ab-56e6-da76-5764c9dad571",
+				"e79b202b-7bd6-d1cc-288d-b6204e211250"
+			],
+			"owner": "452374",
+			"folders_order": [],
+			"id": "222c5b35-5dd8-da78-d5a0-c519f5a1f819"
+		}
+	],
+	"folders_order": [
+		"50ebcccf-83f7-c89b-717f-5b37703852b7",
+		"222c5b35-5dd8-da78-d5a0-c519f5a1f819"
+	],
+	"timestamp": 1598940671365,
+	"owner": "452374",
+	"public": false,
+	"requests": [
+		{
+			"id": "08a55e7c-f153-8105-cc92-fc08ec5287b2",
+			"headers": "Content-Type: application/json\n//Authorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcmVzX2F0IjoxNTk5MTUyODM0fQ.eS5bwNGY0MR1mBY-_yjbqJvVbJ2EMw8Pwtj6rqpaEag\n//Authorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHBpcmVzX2F0IjoxNTk5MTUyODg2fQ.4o8mXSOERuC_ngKZM4RUfZEC1Qoea115IeKVtSihNRE\nAuthorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHBpcmVzX2F0IjoxNTk5MTUyOTMyfQ.b4BgDQg8teKQ6IEukowZnEiVDaSciXFQ09k3AcWqUf8\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcmVzX2F0IjoxNTk5MTUyODM0fQ.eS5bwNGY0MR1mBY-_yjbqJvVbJ2EMw8Pwtj6rqpaEag",
+					"description": "dev",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHBpcmVzX2F0IjoxNTk5MTUyODg2fQ.4o8mXSOERuC_ngKZM4RUfZEC1Qoea115IeKVtSihNRE",
+					"description": "manager",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHBpcmVzX2F0IjoxNTk5MTUyOTMyfQ.b4BgDQg8teKQ6IEukowZnEiVDaSciXFQ09k3AcWqUf8",
+					"description": "admin",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/projects",
+			"folder": "50ebcccf-83f7-c89b-717f-5b37703852b7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599118984074,
+			"name": "create Project",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"responses": [],
+			"rawModeData": "{\n  \"project\": {\n    \"name\": \"IMFD-Testing - 1\"\n  }\n}"
+		},
+		{
+			"id": "0b2f11d2-b8ab-56e6-da76-5764c9dad571",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/users/2",
+			"folder": "222c5b35-5dd8-da78-d5a0-c519f5a1f819",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598962167784,
+			"name": "show User",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "0b2f11d2-b8ab-56e6-da76-5764c9dad571",
+			"rawModeData": "{\"user\":\n\t{\n\t\"name\": \"Sagar\",\n\t\"email\": \"qa@aa33.com\"\n\t}\n}"
+		},
+		{
+			"id": "1a8fcf88-eea7-acf7-7a08-c6dbde255140",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/users",
+			"folder": "222c5b35-5dd8-da78-d5a0-c519f5a1f819",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599043084770,
+			"name": "create User",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"responses": [],
+			"rawModeData": "{\n  \"user\": {\n    \"name\": \"Sagar\",\n    \"password\": \"password\",\n    \"email\": \"ss@s.com\"\n  }\n}"
+		},
+		{
+			"id": "3a3edcd3-5d88-a2ee-5dab-b608d1f0e0fa",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/auth/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599109730469,
+			"name": "Login",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"responses": [],
+			"rawModeData": "{\"user\":\n\t{\n\t\"email\": \"a@a.com\",\n\t\"password\": \"1234\"\n\t}\n}"
+		},
+		{
+			"id": "4a80e003-b9d9-5c56-27dc-650f0a654c70",
+			"headers": "Content-Type: application/json\nAuthorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHBpcmVzX2F0IjoxNTk5MTUzMDk1fQ.kN2Xrns5S0eZeRpzX59DgiLNBifnMoZKA3CuEPg082g\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHBpcmVzX2F0IjoxNTk5MTUzMDk1fQ.kN2Xrns5S0eZeRpzX59DgiLNBifnMoZKA3CuEPg082g",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/projects/3",
+			"folder": "50ebcccf-83f7-c89b-717f-5b37703852b7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599112229983,
+			"name": "show Project",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"responses": [],
+			"rawModeData": "{\"user\":\n\t{\n\t\"name\": \"Sagar\",\n\t\"email\": \"qa@aa33.com\"\n\t}\n}"
+		},
+		{
+			"id": "51d02d2d-8c46-5783-feac-131a6136ba3f",
+			"headers": "Content-Type: application/json\nAuthorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcmVzX2F0IjoxNTk5MTUyODM0fQ.eS5bwNGY0MR1mBY-_yjbqJvVbJ2EMw8Pwtj6rqpaEag\n//Authorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHBpcmVzX2F0IjoxNTk5MTUyODg2fQ.4o8mXSOERuC_ngKZM4RUfZEC1Qoea115IeKVtSihNRE\n//Authorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHBpcmVzX2F0IjoxNTk5MTUyOTMyfQ.b4BgDQg8teKQ6IEukowZnEiVDaSciXFQ09k3AcWqUf8\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcmVzX2F0IjoxNTk5MTUyODM0fQ.eS5bwNGY0MR1mBY-_yjbqJvVbJ2EMw8Pwtj6rqpaEag",
+					"description": "dev",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHBpcmVzX2F0IjoxNTk5MTUyODg2fQ.4o8mXSOERuC_ngKZM4RUfZEC1Qoea115IeKVtSihNRE",
+					"description": "manager",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHBpcmVzX2F0IjoxNTk5MTUyOTMyfQ.b4BgDQg8teKQ6IEukowZnEiVDaSciXFQ09k3AcWqUf8",
+					"description": "admin",
+					"enabled": false
+				}
+			],
+			"url": "localhost:3000/api/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599120167689,
+			"name": "all users",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"responses": [],
+			"rawModeData": "{\n  \"project\": {\n    \"name\": \"IMFD-Testing - 1\"\n  }\n}"
+		},
+		{
+			"id": "5e07f262-983c-32ba-1be9-c91ee2311bab",
+			"headers": "Content-Type: application/json\nAuthorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcmVzX2F0IjoxNTk5MTUyMjEwfQ.TuIykQ38W-XmAtWFFFKmPyCaab0He-mSYxjpN1TLSYo\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcmVzX2F0IjoxNTk5MTUyMjEwfQ.TuIykQ38W-XmAtWFFFKmPyCaab0He-mSYxjpN1TLSYo",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/projects",
+			"folder": "50ebcccf-83f7-c89b-717f-5b37703852b7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599377690569,
+			"name": "List Projects",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"responses": [],
+			"rawModeData": "{\"user\":\n\t{\n\t\"name\": \"Sagar\",\n\t\"email\": \"qa@aa33.com\"\n\t}\n}"
+		},
+		{
+			"id": "74c43a48-b507-31f7-3cdf-f7cc8cd924e0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/users",
+			"folder": "222c5b35-5dd8-da78-d5a0-c519f5a1f819",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599120191675,
+			"name": "List User",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"responses": [],
+			"rawModeData": "{\"user\":\n\t{\n\t\"name\": \"Sagar\",\n\t\"email\": \"qa@aa33.com\"\n\t}\n}"
+		},
+		{
+			"id": "a861d809-7fae-b4fe-20a8-2ff2db22ae4a",
+			"headers": "Content-Type: application/json\nAuthorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcmVzX2F0IjoxNTk5MTUyODM0fQ.eS5bwNGY0MR1mBY-_yjbqJvVbJ2EMw8Pwtj6rqpaEag\n//Authorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcmVzX2F0IjoxNTk5MTUyODM0fQ.eS5bwNGY0MR1mBY-_yjbqJvVbJ2EMw8Pwtj6rqpaEag\n//Authorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHBpcmVzX2F0IjoxNTk5MTUyOTMyfQ.b4BgDQg8teKQ6IEukowZnEiVDaSciXFQ09k3AcWqUf8\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcmVzX2F0IjoxNTk5MTUyODM0fQ.eS5bwNGY0MR1mBY-_yjbqJvVbJ2EMw8Pwtj6rqpaEag",
+					"description": "manager",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcmVzX2F0IjoxNTk5MTUyODM0fQ.eS5bwNGY0MR1mBY-_yjbqJvVbJ2EMw8Pwtj6rqpaEag",
+					"description": "dev",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHBpcmVzX2F0IjoxNTk5MTUyOTMyfQ.b4BgDQg8teKQ6IEukowZnEiVDaSciXFQ09k3AcWqUf8",
+					"description": "admin",
+					"enabled": false
+				}
+			],
+			"url": "localhost:3000/api/projects/1",
+			"folder": "50ebcccf-83f7-c89b-717f-5b37703852b7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599110803406,
+			"name": "Delete Project",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"responses": [],
+			"rawModeData": "{\n  \"project\": {\n    \"name\": \"IMFD\"\n  }\n}"
+		},
+		{
+			"id": "b9413ded-a1db-553f-f592-d3b6bb88c37d",
+			"headers": "Content-Type: application/json\nAuthorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHBpcmVzX2F0IjoxNTk5MTUzMDk1fQ.kN2Xrns5S0eZeRpzX59DgiLNBifnMoZKA3CuEPg082g\n//Authorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcmVzX2F0IjoxNTk5MTUyODM0fQ.eS5bwNGY0MR1mBY-_yjbqJvVbJ2EMw8Pwtj6rqpaEag\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHBpcmVzX2F0IjoxNTk5MTUzMDk1fQ.kN2Xrns5S0eZeRpzX59DgiLNBifnMoZKA3CuEPg082g",
+					"description": "admin",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHBpcmVzX2F0IjoxNTk5MTUyODM0fQ.eS5bwNGY0MR1mBY-_yjbqJvVbJ2EMw8Pwtj6rqpaEag",
+					"description": "dev",
+					"enabled": false
+				}
+			],
+			"url": "localhost:3000/api/projects/3/add_user_to_project",
+			"folder": "50ebcccf-83f7-c89b-717f-5b37703852b7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599110389053,
+			"name": "Add user to a project",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"responses": [],
+			"rawModeData": "{\"user_id\": 1}\n"
+		},
+		{
+			"id": "e79b202b-7bd6-d1cc-288d-b6204e211250",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/users/2",
+			"folder": "222c5b35-5dd8-da78-d5a0-c519f5a1f819",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598963937377,
+			"name": "update User",
+			"description": "",
+			"collectionId": "d546b12e-6e0e-7050-cbf9-22967b032861",
+			"responses": [],
+			"rawModeData": "{\"user\":\n\t{\n\t\"name\": \"Sagar\",\n\t\"email\": \"qa@aa33.com\"\n\t}\n}"
+		}
+	]
+}

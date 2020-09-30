@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_permiable_type: MyString
+  user_permiable_id: 1
+  can_new: MyString
+  can_edit: MyString
+  can_delete: false
+
+two:
+  user_permiable_type: MyString
+  user_permiable_id: 1
+  can_new: MyString
+  can_edit: MyString
+  can_delete: false
